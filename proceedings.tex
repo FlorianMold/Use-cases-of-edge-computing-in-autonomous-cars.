@@ -143,7 +143,7 @@
 \maketitle
 
 \begin{abstract}
-Das Aufkommen von autonomen Fahrzeugen stellt die IT-Welt vor ganz neue Herausforderungen. Die komplexen IoT-Systeme in den Vehikeln produzieren eine riesige Menge an Daten. Die Rechenkapazität hat sich in den letzten Jahren enorm gesteigert, während die Bandbreite von Netzwerken unverändert geblieben ist. Mit einem zentralen Paradigma wie Cloud Computing, lässt sich das enorme Datenaufkommen nicht mehr bewältigen. Alle Informationen, die ein autonomes Fahrzeug produziert, müssten an ein entferntes Rechenzentrum übertragen, verarbeitet und zurückgesendet werden. Dies führt zu langen Antwortzeiten, was im Falle eines Unfalls katastrophale Folgen haben könnte. Edge Computing ist ein neues Paradigma, welches jene Probleme adressiert. Daten werden direkt bei den Erzeugern verarbeitet und nur das Notwendigste wird an ein Rechenzentrum übertragen. Damit kann die Antwortzeit deutlich verringert werden. Der dezentrale Ansatz eignet sich perfekt für autonomes Fahren. Beispielsweise können die Daten der Verkehrskameras der Autos in Echtzeit verarbeitet und somit schneller auf kritische Situationen reagiert werden. In dieser Arbeit werden Probleme von autonomen Vehikeln, sowie mögliche Einsatzzwecke von Edge Computing beschrieben.
+Das Aufkommen von autonomen Fahrzeugen stellt die IT-Welt vor ganz neue Herausforderungen. Die komplexen IoT-Systeme in den Vehikeln produzieren eine riesige Menge an Daten. Die Rechenkapazität hat sich in den letzten Jahren enorm gesteigert, während die Bandbreite von Netzwerken unverändert geblieben ist. Mit einem zentralen Paradigma wie Cloud Computing, lässt sich das enorme Datenaufkommen nicht mehr bewältigen. Alle Informationen, die ein autonomes Fahrzeug produziert, müssten an ein entferntes Rechenzentrum übertragen, verarbeitet und zurückgesendet werden. Dies führt zu langen Antwortzeiten, was im Falle eines Unfalls katastrophale Folgen haben könnte. Edge Computing ist ein neues Paradigma, welches jene Probleme adressiert. Daten werden direkt bei den Erzeugern verarbeitet und nur das Notwendigste wird an ein Rechenzentrum übertragen. Damit kann die Antwortzeit deutlich verringert werden. Der dezentrale Ansatz eignet sich perfekt für autonomes Fahren. Beispielsweise können Daten der Verkehrskameras der Autos in Echtzeit verarbeitet werden. Damit kann schneller auf kritische Situationen reagiert werden. In dieser Arbeit werden Probleme von autonomen Vehikeln, sowie mögliche Einsatzzwecke von Edge Computing beschrieben.
 \end{abstract}
 
 
@@ -188,13 +188,13 @@ Das Aufkommen von autonomen Fahrzeugen stellt die IT-Welt vor ganz neue Herausfo
 Dieses Kapitel beginnt mit der Einführung in das Thema Edge Computing und Autonomes Fahren. Anschließend wird die Motivation dieser Arbeit beschrieben. Daraufhin wird die Zielsetzung und Methodik beschrieben. Am Ende wird noch ein grober Überblick über den Aufbau der Arbeit gegeben.
 
 \subsection{Problemstellung}
-Ein autonomes Fahrzeug muss Datenmengen von bis zu 2 Gigabyte die Sekunde in Echtzeit bearbeiten \cite{architectures:2017}. Cloud Computing hat in den vergangenen Jahren die IT-Welt dominiert. Internet of Things (IoT) Geräte produzieren immer mehr Daten und stellen ein Problem für den zentralen Ansatz der Cloud dar. Die potentielle Rechenleistung von Geräten ist stark gestiegen, während die Netzwerkbandbreite gleich geblieben ist. Dadurch wird das Netzwerk zum Flaschenhals für Cloud Computing \cite{promise-edge-computing:2016}. Ebenso wichtig ist der Schutz der übertragenen Daten, welcher sich mit dem Einsatz eines zentralen Paradigmas nicht ordentlich umsetzen lässt  \cite{vision-challenges:2016}. Durch Edge Computing könnten die Herausforderungen von autonomen Fahrzeugen bewältigt werden \cite{opportunities-challenges:2019}.
+Ein autonomes Fahrzeug muss Datenmengen von bis zu 2 Gigabyte die Sekunde in Echtzeit bearbeiten \cite{architectures:2017}. Cloud Computing hat in den vergangenen Jahren die IT-Welt dominiert. Internet of Things (IoT) Geräte produzieren immer mehr Daten und stellen ein Problem für den zentralen Ansatz der Cloud dar. Die potentielle Rechenleistung von Geräten ist stark gestiegen, während die Netzwerkbandbreite gleich geblieben ist. Dadurch wird das Netzwerk zum Flaschenhals für Cloud Computing \cite{promise-edge-computing:2016}. Ebenso wichtig ist der Schutz der Privatsphäre, welcher sich mit dem Einsatz eines zentralen Paradigmas nicht ordentlich umsetzen lässt \cite{vision-challenges:2016}. Durch Edge Computing könnten die Herausforderungen von autonomen Fahrzeugen bewältigt werden \cite{opportunities-challenges:2019}.
 
 \subsection{Motivation und Zielsetzung}
-Das Ziel der Arbeit ist die Herausarbeitung von potentiellen Möglichkeiten, die der Einsatz von Edge Computing im Vergleich zu Cloud Computing bei autonomen Fahrzeugen ermöglicht. Aktuelle Problematiken, welche den flächendeckenden Einsatz von autonomen Fahrzeugen behindern, werden beleuchtet und wie diese potentiellen Schwachstellen durch die Verwendung von Edge Computing ausgeräumt werden können.
+Das Ziel der Arbeit ist die Herausarbeitung von potentiellen Möglichkeiten, die der Einsatz von Edge Computing im Vergleich zu Cloud Computing bei autonomen Fahrzeugen ermöglicht. Aktuelle Problematiken, welche den flächendeckenden Einsatz von autonomen Fahrzeugen behindern, werden beleuchtet. Und wie potentiellen Schwachstellen durch die Verwendung von Edge Computing ausgeräumt werden können.
 
 \subsection{Aufbau der Arbeit}
-Die Arbeit gliedert sich in dieses Einleitungskapitel, sowie ein theoretisches Kapitel und praktisches Kapitel. Am Ende folgt eine Zusammenfassung und ein Ausblick. In Kapitel \ref{chap:theoretic-part} werden die theoretischen Grundlagen dieser Arbeit behandelt. Dabei wird die Notwendigkeit von Edge Computing, aufgrund der Schwächen von Cloud Computing beschrieben. Daraufhin wird auf autonomes Fahren im Allgemeinen eingegangen und Probleme, die dieser neue Mobilitätsansatz mit sich bringt. In Kapitel \ref{chap:edge-computing-autonomic-cars} werden die Einsatzzwecke von Edge Computing in autonomen Fahrzeugen beschrieben. Kapitel \ref{chap:discussion} und \ref{chap:summary} bilden den Abschluss und fassen die Arbeit nochmals zusammen und geben einen Ausblick über zukünftige Entwicklungen.
+Die Arbeit gliedert sich in dieses Einleitungskapitel, sowie ein theoretisches Kapitel und praktisches Kapitel. Am Ende folgt eine Zusammenfassung und ein Ausblick. In Kapitel \ref{chap:theoretic-part} werden die theoretischen Grundlagen dieser Arbeit behandelt. Dabei wird die Notwendigkeit von Edge Computing, aufgrund der Schwächen von Cloud Computing beschrieben. Daraufhin wird auf autonomes Fahren im Allgemeinen eingegangen und mögliche Probleme, die dieser neue Mobilitätsansatz mit sich bringt. In Kapitel \ref{chap:edge-computing-autonomic-cars} werden die Einsatzzwecke von Edge Computing in autonomen Fahrzeugen beschrieben. Kapitel \ref{chap:discussion} und \ref{chap:summary} bilden den Abschluss und fassen die Arbeit nochmals zusammen und geben einen Ausblick über zukünftige Entwicklungen.
 
 \section{Theoretischer Teil} \label{chap:theoretic-part}
 In diesem Kapitel werden die theoretischen Aspekte der Arbeit behandelt. Zu Beginn wird das allgemeine Konzept von Cloud Computing erläutert. Dabei werden die Probleme von Cloud Computing herausgearbeitet. Daraus folgend wird die grundsätzliche Idee von Edge Computing beschrieben und wie die Nachteile der Cloud ausgemerzt werden sollen. Zum Abschluss wird autonomes Fahren allgemein beschrieben und welche Problematiken dabei entstehen.
@@ -204,7 +204,7 @@ Cloud Computing hat die IT-Landschaft in der vergangenen Dekade dominiert und br
 
 \begin{figure}
 \centering
-  \includegraphics[width=0.75\columnwidth]{figures/cloud-computing-structure.PNG}
+  \includegraphics[width=0.65\columnwidth]{figures/cloud-computing-structure.PNG}
   \caption{Cloud Computing Paradigma \cite{vision-challenges:2016}}~\label{fig:cloud-computing}
 \end{figure}
 
@@ -213,7 +213,7 @@ Edge Computing bezeichnet Technologien, die Berechnungen am Rand des Netzwerks d
 
 \begin{figure}
 \centering
-  \includegraphics[width=0.75\columnwidth]{figures/edge-computing-structure.PNG}
+  \includegraphics[width=0.65\columnwidth]{figures/edge-computing-structure.PNG}
   \caption{Edge-Geräte fungieren als Konsumenten und Produzenten. Anfragen zwischen der Cloud und den Geräten sind bidirektional. Viele Berechnungen werden direkt am Endgerät ausgeführt \cite{promise-edge-computing:2016}.}~\label{fig:edge-computing}
 \end{figure}
 
@@ -285,7 +285,7 @@ In Abbildung \ref{fig:edge-computing-drive-infrastructure} ist der Aufbau von se
 
 \begin{figure}
 \centering
-  \includegraphics[width=0.75\columnwidth]{figures/edge-computing-drive-infrastructure.PNG}
+  \includegraphics[width=0.70\columnwidth]{figures/edge-computing-drive-infrastructure.PNG}
   \caption{Autonomes Fahren mit Edge Computing Unterstützung \cite{opportunities-challenges:2019}.}~\label{fig:edge-computing-drive-infrastructure}
 \end{figure}
 
@@ -308,7 +308,7 @@ Edge Computing kann die Benutzerfahrung deutlich verbessern, indem es die Anwend
 %Machine Learning Modelle können durchgehend Daten sammeln, verarbeiten und analysieren. Diese Machine Learning Algorithmen können direkt auf einem Edge Gerät betrieben werden, um das Verhalten des Benutzers zu analysieren. 
 
 \subsubsection{Authentifizierung}
-Multi-Level Authentifizierung kann durch Kameras und Sensoren ermöglicht werden. Die Kameras im Fahrzeug könnten für Gesichtserkennung genutzt werden. Bluetooth Geräte für die Erkennung des Smartphones des/der Besitzer/in. Dadurch könnte die unerlaubte Nutzung von Fahrzeugen oder der Diebstahl von Fahrzeugen reduziert \cite{role-edge-computing:2020}.
+Multi-Level Authentifizierung kann durch Kameras und Sensoren ermöglicht werden. Die Kameras im Fahrzeug könnten für Gesichtserkennung genutzt werden. Bluetooth Geräte für die Erkennung des Smartphones des/der Besitzer/in. Dadurch könnte die unerlaubte Nutzung von Fahrzeugen oder der Diebstahl von Fahrzeugen reduziert werden \cite{role-edge-computing:2020}.
 
 \subsubsection{Fahrzeugflottenmanagement}
 Ein/e Flottenmanager/in muss alle Fahrzeugdaten seiner Flotte im Auge behalten. Wenn ein Fahrzeug auf eine Reise geschickt wird, dann soll es nicht bereits nach kurzer Zeit gewartet werden müssen. Edge Computing kann solche Situationen vorhersehen, indem Sensordaten mit Machine Learning Modellen analysiert werden. Die Geräte können angeben, wie viele Kilometer noch gefahren werden können \cite{role-edge-computing:2020}.
@@ -317,13 +317,13 @@ Ein/e Flottenmanager/in muss alle Fahrzeugdaten seiner Flotte im Auge behalten. 
 Edge Computing kann einige Parameter des Fahrzeuges überwachen. Dazu zählt die Umgebungstemperatur, die Kilometeranzahl, die Reifenabnutzung, die Bremsabnutzung, die Beschleunigung und die Geschwindigkeit. Es kann vorhergesagt werden, wann eine Komponente ausfallen könnte und den/die Besitzer/in informieren. Wenn beispielsweise der Reifendruck zu niedrig ist, dann wird der/die Fahrer/in alarmiert \cite{role-edge-computing:2020}.
 
 \subsubsection{Vehikel zu Vehikel Kommunikation}
-Jedes autonome Fahrzeug wird Daten über die Straßenbeschaffenheit, Wetterveränderungen mit anderen Fahrzeugen teilen. Dadurch ermöglicht man anderen Fahrzeugen rechtzeitig über potentielle Gefahren wie Umleitungen, Trümmer, Unfälle und Überschwemmungen informiert zu werden und entsprechende Gegenmaßnahmen zu ergreifen. Ein Großteil dieser Daten wird zwischen den Fahrzeugen selbst gesendet und empfangen werden können, ohne dass sie mit entfernten Rechenzentren kommunizieren müssen. Diese Kommunikation macht jedes Fahrzeug auf der Straße zu einer Erweiterung der Sensoren jedes anderen Fahrzeugs und liefert somit die bestmöglichen Informationen über die Situation \cite{5-use-cases:2019}.
+Jedes autonome Fahrzeug wird Daten über die Straßenbeschaffenheit, Wetterveränderungen mit anderen Fahrzeugen teilen. Dadurch ermöglicht man anderen Fahrzeugen rechtzeitig über potentielle Gefahren wie Umleitungen, Trümmer, Unfälle und Überschwemmungen informiert zu werden und entsprechende Gegenmaßnahmen zu ergreifen. Ein Großteil dieser Daten wird zwischen den Fahrzeugen ausgetauscht werden können. Diese Kommunikation macht jedes Fahrzeug auf der Straße zu einer Erweiterung der Sensoren jedes anderen Fahrzeugs und liefert somit die bestmöglichen Informationen über die Situation \cite{5-use-cases:2019}.
 
 \subsubsection{Reduzierte Latenz}
-Durch die Unterbringung von Servern und Rechenressourcen in Edge-Einrichtungen, die sich sowohl in Gebieten mit hohem Verkehrsaufkommen als auch in weiter entfernten Gebieten mit begrenztem Bandbreitenzugang befinden, kann sichergestellt werden, dass autonome Fahrzeuge mit minimaler Latenzzeit auf die Daten zugreifen können, die sie benötigen, um schnell Entscheidungen treffen zu können. Als IoT-Geräte haben selbstfahrende Vehikel auch die Möglichkeit, ihre eigenen Entscheidungen zu treffen, ohne sich auf die Anleitung von Servern in entfernten Rechenzentren verlassen zu müssen \cite{5-use-cases:2019}.
+Durch die Unterbringung von Servern und Rechenressourcen in Edge-Einrichtungen, die sich sowohl in Gebieten mit hohem Verkehrsaufkommen als auch in weiter entfernten Gebieten mit begrenztem Bandbreitenzugang befinden, kann sichergestellt werden, dass autonome Fahrzeuge mit minimaler Latenz-zeit auf die Daten zugreifen können, die sie benötigen, um schnell Entscheidungen treffen zu können. Als IoT-Geräte haben selbstfahrende Vehikel auch die Möglichkeit, ihre eigenen Entscheidungen zu treffen, ohne sich auf die Anleitung von Servern in entfernten Rechenzentren verlassen zu müssen \cite{5-use-cases:2019}.
 
 \subsubsection{Smart City Integration}
-Damit autonome Fahrzeuge ihr volles Potenzial entfalten können, müssen städtische Gebiete mit hohem Verkehrsaufkommen in IoT investieren. Sensoren, die Informationen über Straßenzustände bis hin zu Echtzeitberichten über Staus weiterleiten werden gesammelt. "Intelligente Städte" werden autonome Fahrzeuge mit wertvollen Informationen zu versorgen, damit sie bessere und effizientere Entscheidungen treffen können. Durch die Schaffung einer solchen Umgebung mit leichtem Zugang zu lokalen Ressourcen könnten Städte dazu beitragen, das volle Potenzial von IoT-Geräten auszuschöpfen \cite{5-use-cases:2019}.
+Damit autonome Fahrzeuge ihr volles Potenzial entfalten können, müssen städtische Gebiete mit hohem Verkehrsaufkommen in IoT investieren. Sensoren, die Informationen über Straßenzustände bis hin zu Echtzeitberichten über Staus weiterleiten werden gesammelt. "Intelligente Städte" werden autonome Fahrzeuge mit wertvollen Informationen versorgen, damit sie bessere und effizientere Entscheidungen treffen können. Durch die Schaffung einer solchen Umgebung mit leichtem Zugang zu lokalen Ressourcen könnten Städte dazu beitragen, das volle Potenzial von IoT-Geräten auszuschöpfen \cite{5-use-cases:2019}.
 
 \section{Diskussion} \label{chap:discussion}
 Im Rahmen dieser wissenschaftlichen Arbeit wurden die potentiellen Einsatzzwecke von Edge Computing in selbstfahrenden Autos herausgearbeitet. Dabei konnten einige gewinnbringende Einsatzgebiete von Edge Computing identifiziert werden. Mit den Möglichkeiten der aktuellen IT-Technologien, sind komplett fahrerlose Autos noch nicht denkbar. Jedoch könnten die neuen Möglichkeiten von Edge Computing unbemannte Fahrzeuge in den nächsten 20 Jahren zur Realität werden lassen. Das volle Potential von Edge Computing ist jedoch noch nicht ausgeschöpft. Zukünftig wird Cloud Computing durch Edge Computing als das dominierende Paradigma abgelöst werden.
@@ -335,7 +335,7 @@ Dieses Kapitel fasst die wichtigsten Ideen und Ergebnisse dieser Arbeit zusammen
 Autonome Fahrzeuge produzieren mit ihren unzähligen Sensoren eine enorme Menge an Daten. Das dezentrale Paradigma Edge Computing ist sehr vielseitig und bietet eine Menge von Einsatzmöglichkeiten in autonomen Fahrzeugen. Dazu zählt beispielsweise die Überwachung des internen Zustands des Fahrzeugs oder die Kommunikation mit anderen Vehikeln, um über die Verkehrslage informiert zu werden.
 
 \subsection{Ausblick}
-Edge Computing birgt großes Potential für die Zukunft. Die Datenmengen, welche von der rasant wachsenden Anzahl von IoT-Geräten produziert werden, stellen im aktuellen Kontext eine große Herausforderung dar. Für die Verarbeitung dieser Datenflut existiert noch keine ordentliche Lösung. Wenn mehr Forschungsaufwand in Edge Computing investiert wird, dann könnte dieser Ansatz eine potentielle Antwort sein. Vielseitige Einsatzzwecke von Edge Computing sind Smart Cities, der Finanzsektor, das Gesundheitswesen oder Argumented Reality sind denkbar \cite{5-use-cases-1:2019}.
+Edge Computing birgt großes Potential für die Zukunft. Die Datenmengen, welche von der rasant wachsenden Anzahl von IoT-Geräten produziert werden, stellen im aktuellen Kontext eine große Herausforderung dar. Für die Verarbeitung dieser Datenflut existiert noch keine ordentliche Lösung. Wenn mehr Forschungsaufwand in Edge Computing investiert wird, dann könnte dieser Ansatz eine potentielle Antwort sein. Vielseitige Einsatzzwecke von Edge Computing wie Smart Cities, der Finanzsektor, das Gesundheitswesen oder Argumented Reality sind denkbar \cite{5-use-cases-1:2019}.
 
 
 % BALANCE COdge ComputingLUMNS
